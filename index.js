@@ -50,7 +50,7 @@ function kontrolEt() {
 		} else {
 			if (tag) {
 				console.log("Burs yatmış!")
-				bildirimGonder()
+				if (pushbullet_api_key != "") bildirimGonder()
 				clearInterval(interval)
 			} else {
 				console.log("Burs yatmamış!")
