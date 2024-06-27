@@ -1,5 +1,5 @@
 {
-  "name": "ptt-burs-takip",
+  "name": "meb-burs-takip",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.7.2"
+    "axios": "^1.7.2",
+    "jssoup": "^0.0.15"
   }
 }
